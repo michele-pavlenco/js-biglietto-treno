@@ -5,10 +5,10 @@ console.log(userName);
 let userSurname = (prompt ("Qualè il tuo cognome?"));
 console.log(userSurname);
 
-let numberKm = prompt( " Qunti chilometri vuoi percorrere oggi? ");
+let numberKm = parseInt(prompt( " Qunti chilometri vuoi percorrere oggi? "));
 console.log ( "numero chilometri:" , numberKm);
 
-let age = prompt("Quanti anni hai?")
+let age = parseInt( prompt("Quanti anni hai?"))
 console.log ( "Età:" , age);
 
 const price4Km = "0.21"
